@@ -5,10 +5,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Charles & Desire Wedding Invitation</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Zilla+Slab:wght@700&display=swap" rel="stylesheet">
+
   <style>
     body {
       margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-family: 'Zilla Slab', serif;
       background-image: url('e576f1dd-29b7-4f0f-8ad9-74d2e2a22736.png');
       background-size: cover;
       background-position: center;
@@ -27,7 +31,7 @@
       height: 100%;
       background: url('background.jpeg') no-repeat center center fixed;
       background-size: cover;
-      filter: brightness(0.6); /* No blur */
+      filter: brightness(0.6);
       z-index: -1;
     }
 
@@ -44,6 +48,23 @@
       font-size: 2.5rem;
       margin-bottom: 0.5rem;
       color: #e6e6fa;
+    }
+
+    .intro-heading {
+      font-family: 'Zilla Slab', serif;
+      font-size: 1.3rem;
+      line-height: 2.2;
+      color: #f8f8ff;
+      margin-bottom: 2rem;
+      text-transform: uppercase;
+    }
+
+    .intro-heading .script {
+      font-family: 'Dancing Script', cursive;
+      font-size: 2rem;
+      text-transform: none;
+      color: #dda0dd;
+      display: block;
     }
 
     .details {
@@ -106,6 +127,10 @@
         font-size: 1.8rem;
       }
 
+      .intro-heading {
+        font-size: 1.1rem;
+      }
+
       .details,
       .countdown,
       .theme,
@@ -123,9 +148,18 @@
 <body>
   <div class="overlay">
     <h1>You're Invited!</h1>
+
+    <!-- Updated Heading -->
+    <section class="intro-heading">
+      <p>TOGETHER WITH THEIR FAMILIES</p>
+      <span class="script">Desire</span>
+      <span class="script">and</span>
+      <span class="script">Charles</span>
+      <p>INVITE YOU TO THEIR WEDDING CELEBRATION.</p>
+    </section>
+
     <p class="details">
-      Together, let's commemorate the special bond between <strong>Charles & Desire</strong><br />
-      on <strong>Saturday, 30th August 2025</strong><br /><br />
+      <strong>Saturday, 30th August 2025</strong><br /><br />
       <strong>Kingdom Hall:</strong> 11:00 AM<br />
       13 Ezinifite Street, Omagba Phase 2<br /><br />
       <strong>Reception:</strong> 1:00 PM<br />
